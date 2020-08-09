@@ -3,10 +3,10 @@ Description=CouchPotato application instance
 After=network.target
 
 [Service]
-ExecStart=/var/lib/CouchPotatoServer/CouchPotato.py
+ExecStart=/opt/CouchPotatoServer/CouchPotato.py
 Type=simple
-User=couchpotato
-Group=couchpotato
+User=mcurry
+Group=mcurry
 Restart=always
 RestartSec=2s
 
